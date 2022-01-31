@@ -1,11 +1,11 @@
   applications:
   - name: djangoapp
     routes:
-      - route: birpm.mybluemix.net
+      - route: birpmcd.mybluemix.net
     memory: 128M
     buildpacks: [ python_buildpack ]
   - name: djangoapp-nginx
     routes:
-      - route: birps.mybluemix.net/static
+      - route: birpscd.mybluemix.net/static
     memory: 128M
     buildpacks: [ staticfile_buildpack ]
